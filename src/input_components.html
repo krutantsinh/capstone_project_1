@@ -10,14 +10,39 @@
 
 <body class="bg-black">
 
+    <!-- whats happening  -->
 
-    <article class="h-screen flex justify-center items-center bg-black">
+    <article>
+        <section class="flex w-482 items-start gap-3">
+            <section class="bg-avatar w-9 h-9 shrink-0 rounded-200 bg-cover bg-no-repeat">
+            </section>
+            <section class="flex w-434 items-center shrink-0 self-stretch ">
+            <input type="text" name="text" id="text" placeholder="What's happening?!" class="text-neutral-50 font-inter text-20 font-normal bg-black border-none outline-none">
+        </section>
+        </section>
+    </article>
+<br>
+  <!-- search component  -->
+
+    <article class="flex justify-start ">
+        <section class="relative">
+            <input type="search" placeholder="Search" class="flex w-348 h-39 py-2.5 pr-247 pl-8 items-start gap-15 shrink-0 rounded-full border-none outline-none focus:border focus:border-solid focus:border-twitterblue bg-searchbarfill focus:text-neutral-50 focus:placeholder-neutral-50">
+            <img src="/public/images/search_1.svg" class="absolute top-3 left-2 ">
+           
+        </section>
+    </article>
+
+  
+<br><br>
+
+    <article class="flex">
         <label class="relative justify-between items-center">
-            <input type="text" placeholder="label" class="h-20 w-426 py-4 px-3 gap-2.5 text-4xl text-neutral-500 bg-black border-neutral-500 border-2 rounded outline-none focus:border-twitterblue placeholder-neutral-500 placeholder-opacity-0 transition duration-300" />
-            <section class="text-3xl text-white text-opacity-80 bg-black absolute left-5 top-5 px-1 transition duration-300 input-text">Label</section>
-            <img src="/public/images/tick.svg" alt="tick" class="w-6 h-6 shrink-0 invisible focus:visible ">
+            <input type="text" placeholder="label" class="relative h-20 w-426 py-4 px-3 gap-2.5 text-4xl text-neutral-500 bg-black border-neutral-500 border-2 rounded outline-none focus:border-twitterblue placeholder-neutral-500 placeholder-opacity-0 transition duration-300">
+            <section class="text-3xl text-white text-opacity-80 bg-black absolute left-5 top-5 px-1 transition duration-300">Label</section>
+            <img src="/public/images/tick.svg" alt="tick" class="w-6 h-6 shrink-0 absolute right-3 inset-y-7">
         </label>
     </article>
+<br>
 
 
 </body>
