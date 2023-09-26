@@ -17,7 +17,7 @@ module.exports = {
       borderRadius: {
         '65': '65px',
         '30': '30px',
-        '200': '200px'
+        '200': '200px',
       },
       backdropBlur: {
         23: '23.668209075927734px',
@@ -62,7 +62,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        chirp: ['Chirp', 'sans'],
+        
       },
       
       width: {
@@ -80,6 +80,7 @@ module.exports = {
         '19' : '19px',
         '512':'512px',
         '14.564':'14.564px',
+        '51.018':'51.018px',
 
       },
       height: {
