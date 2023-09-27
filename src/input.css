@@ -3,11 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type="text"]:focus~.input-text {
-    @apply text-twitterblue transform -translate-y-10 -translate-x-2 scale-75;
-}
-
-/* Apply styles when input is not empty (placeholder is not shown) */
-input[type="text"]:not(:placeholder-shown)~.input-text {
-    @apply text-twitterblue transform -translate-y-10 -translate-x-2 scale-75;
-}
