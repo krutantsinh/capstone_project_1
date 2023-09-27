@@ -8,8 +8,8 @@ module.exports = {
       },
       backgroundImage: {
         'avatar': "url('../public/images/User_avatar.png')",
-        'search': "url('/public/images/search.svg')",
-        'x': "url('/public/images/signup-x.svg')",
+        'search': "url('../public/images/search.svg')",
+        'x': "url('../public/images/signup-x.svg')",
         'tweetavatar': "url('../public/images/tweet-avatar.png')",
 
 
