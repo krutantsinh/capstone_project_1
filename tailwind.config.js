@@ -7,10 +7,10 @@ module.exports = {
         '1.5': '1.5px',
       },
       backgroundImage: {
-        'avatar': "url('/public/images/User_avatar.png')",
+        'avatar': "url('../public/images/User_avatar.png')",
         'search': "url('/public/images/search.svg')",
         'x': "url('/public/images/signup-x.svg')",
-        'tweetavatar': "url('/public/images/tweet-avatar.png')",
+        'tweetavatar': "url('../public/images/tweet-avatar.png')",
 
 
       },
